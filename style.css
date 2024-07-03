@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(244, 223, 197);
+}
+
+h1 {
+    text-align: center;
+}
+
+.litere {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.tabla-sah {
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding: 1em;
+}
+
+td {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.alb {
+    background-color: #c9c5ba;
+}
+
+.negru {
+    background-color: #c8ad7f;
+}
+
+td:hover {
+    background-color: #ffffff;
+}
+
+.fig-negre:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+.fig-negre:after {
+   content: attr(title);
+   max-width: 200px;
+   background-color: #000;
+   color: #fff;
+   position: absolute;
+   text-align: center;
+   padding:  0.25rem 0.5rem;
+   border-radius: 0.25rem;
+   font-style: normal;
+   font-weight: 100;
+   line-height: 1.5;
+   z-index: 99999;
+   visibility: hidden;
+   font-size: 15px;
+}
+
+.fig-negre {
+    position: relative;
+}
+
+.fig-negre:hover {
+    color: #c8ad7f;
+}
+
+.fig-albe:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+.fig-albe:after {
+   content: attr(title);
+   max-width: 200px;
+   border: 1px solid #000000;
+   background-color: #fff;
+   color: #000;
+   position: absolute;
+   text-align: center;
+   padding:  0.25rem 0.5rem;
+   border-radius: 0.25rem;
+   font-style: normal;
+   font-weight: 100;
+   line-height: 1.5;
+   z-index: 99999;
+   visibility: hidden;
+   font-size: 15px;
+}
+
+.fig-albe {
+    position: relative;
+}
+
+.fig-albe:hover {
+    color: #ff9900;
+}
